@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BeiruiNiu</title>
+    <title>Beirui Niu</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,55 +28,41 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="pic/logo.png" class="navbar-brand">
+                    <img src="pic/logo.png" title="logo" class="navbar-brand">
                     <span class="navbar-brand-text">
-                        YuGao & BeiruiNiu
+                        Beirui Niu
                     </span>
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                            <a class="nav-link" href="index.html#section_1">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_2">Our Story</a>
+                            <a class="nav-link" href="index.html#section_2">Story</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_3">Events</a>
+                            <a class="nav-link" href="index.html#section_3">Events</a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Personnal Introduction</a>
+                                data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="YuGao.html">YuGao</a></li>
+                                <li><a class="dropdown-item" href="YuGao.html">Yu Gao</a></li>
 
-                                <li><a class="dropdown-item" href="BeiruiNiu.html">BeiruiNiu</a></li>
+                                <li><a class="dropdown-item" href="BeiruiNiu.html">Beirui Niu</a></li>
                             </ul>
                         </li>
                     </ul>
 
-                    <div class="d-none d-lg-block ms-lg-3">
-                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas"
-                            href="https://github.com/BRNiu/beirui.github.io" role="button"
-                            aria-controls="offcanvasExample">Github</a>
-                    </div>
                 </div>
             </div>
         </nav>
-
-        <div class="offcanvas offcanvas-end" data-bs-sroll="true" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#3D405B" fill-opacity="1"
-                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-                </path>
-            </svg>
-        </div>
 
         <section class="hero-section hero-50 d-flex justify-content-center align-items-center" id="section_1">
 
@@ -101,7 +87,6 @@
 
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-6 col-12">
 
                         <h1 class="text-white mb-4 pb-2">Beirui Niu</h1>
@@ -135,14 +120,28 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-8 col-12 mx-auto">
-                        <h2 class="mb-lg-5 mb-4">BeiruiNiu</h2>
+                        <h2 class="mb-lg-5 mb-4">Beirui Niu</h2>
 
-                        <div class="custom-block-image-wrap">
-                            <img src="pic/niu.jpg" class="custom-block-image img-fluid" alt="">
+                        <div class="member-block-image-wrap">
+                            <img src="pic/niu.jpg" class="custom-block-image" alt="" height="200px">
+
+                            <div class="custom-block-info">
+                                <h3 class="mb-3">Basic Info</h3>
+                                <p><b>Birth Day:</b>Oct 1999
+                                </p>
+                                <p><b>Country:</b>China</p>
+                                <p><b>Gender:</b>famale</p>
+                            </div>
                         </div>
 
                         <div class="custom-block-info">
                             <h3 class="mb-3">Education</h3>
+
+                            <p>I'm now study for my doctorate in <a href="https://plantgeneticslab.github.io/home/"
+                                    class="contact-link">LuFei's Lab</a>,
+                                majoring in Genetics of Plants, espicially main crops. We dedicate in improving the
+                                production and quility of foods, which is a beyond
+                                example, considering the climate change and biodiversity loss.</p>
 
                             <p>2022.09 -- <a href="http://genetics.cas.cn/" class="contact-link">Institute of Genetics
                                     and Developmental Biology, Chinese Academy Science</a>
@@ -151,11 +150,44 @@
                                     class="contact-link">College of Tropical Crops, Hainan University</a>
                             </p>
 
-                            <p>I'm now study for my doctorate in <a href="https://plantgeneticslab.github.io/home/"
-                                    class="contact-link">LuFei's Lab</a>,
-                                majoring in Genetics of Plants, espicially main crops. We dedicate in improving the
-                                production and quility of foods, which is a beyond
-                                example, considering the climate change and biodiversity loss.</p>
+                            <h3 class="mb-3">Vedio</h3>
+
+                            <p>I will occasionally post my life vedio records on <a
+                                    href="https://www.douyin.com/">Douyin</a> and
+                                this is my Douyin ID: <b>1636232619</b>.
+                            </p>
+                            <p>The below vedio is the record of my 2023 New Year Festival, which is one of the most
+                                important day in a year for Chinese. For more information, please focus on my account.
+                            </p>
+
+                            <div class="ratio ratio-16x9">
+                                <iframe width="840" height="472.5" src="pic/n_vedio.mp4" title="video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <h3 class="mb-3"><a href="https://store.steampowered.com/">Games</a></h3>
+
+                            <p>My <i>Steam</i> invatition code is <b>1428575992</b>. Tell me if there is interesting
+                                games and we can play together. To be honset, my game skill is not very good, however,
+                                it doesn't dampen my enthusiam even a little bit.
+                            </p>
+
+                            <p>
+                                <a href="https://store.steampowered.com/app/728880/Overcooked_2/">Overcooked2
+                                    <img src="pic/overcooked2.png" title="overcooked2" height="50px">
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://www.terraria.org/">Terraria
+                                    <img src="pic/terraria.png" title="terraria" height="50px">
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://store.steampowered.com/app/527230/__For_The_King/">For the King
+                                    <img src="pic/fortheking.png" title="fortheking" height="50px">
+                                </a>
+                            </p>
 
                             <div class="events-detail-info row my-5">
                                 <div class="col-lg-12 col-12">
